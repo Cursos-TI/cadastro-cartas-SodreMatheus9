@@ -6,9 +6,16 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-
+  char codigo[3], nome[20];
   // Área para entrada de dados
-
+  printf("Escreva o código:\n");
+    
+    scanf("%s", codigo); 
+    
+    printf("Escreva o nome:\n");
+    
+    scanf("%s", nome);
+    
   // Área para exibição dos dados da cidade
 
 return 0;
