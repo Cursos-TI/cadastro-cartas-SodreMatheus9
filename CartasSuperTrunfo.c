@@ -31,13 +31,13 @@ int main() {
     printf("=== Cadastro da Carta 1 ===\n");
     
     printf("Digite a letra do Estado (A a H): ");
-    scanf(" %c", &estado1); // O espaço antes de %c limpa o buffer de quebras de linha
+    scanf(" %c", &estado1); 
     
     printf("Digite o Código da Carta (ex: A01): ");
     scanf("%s", codigo1);
     
     printf("Digite o Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade1); // Lê a string permitindo espaços (para nomes compostos)
+    scanf(" %[^\n]", nomeCidade1); 
     
     printf("Digite a População: ");
     scanf("%d", &populacao1);
@@ -55,7 +55,7 @@ int main() {
     PIB_per_Capta1 = pib1 / populacao1;
     
     
-    printf("\n"); // Linha em branco para separar a leitura
+    printf("\n"); 
 
     // --- LEITURA DOS DADOS (CARTA 2) ---
     printf("=== Cadastro da Carta 2 ===\n");
@@ -95,7 +95,7 @@ int main() {
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
     printf("População: %d\n", populacao1);
-    printf("Área: %.2f km²\n", area1); // %.2f limita a exibição para duas casas decimais
+    printf("Área: %.2f km²\n", area1); 
     printf("PIB: %.2f\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
     printf("A densidade populacional é: %.2f hab/km²\n", densidade_populacional1);
